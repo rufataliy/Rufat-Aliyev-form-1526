@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, Helvetica Neue, sans-serif
+}
+
+
+div {
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+fieldset {
+  background: #F5F5F5;
+  border: 1px solid #ddd;
+}
+input {
+  padding: 8px;
+}
+
+legend {
+  background: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+
+}
+input, textarea {
+  width: 100%;
+  border: 1px solid #DDD;
+  box-sizing: border-box;
+}
+
+#submit-button {
+  background: #6495ED;
+  padding: 8px ;
+  border-radius: 5px;
+  color: white;
+
+  font-size: 1.2rem;
+}
+.m-bottom {
+  margin-bottom: 10px;
+}
+.cleafix {
+  clear: both;
+}
+@media screen and (min-width:25rem) {
+  .input-block {
+    display: inline-block;
+    float: left;
+    width: 50%;
+
+  }
+  label {
+    width: 10%;
+  }
+  #submit-button {
+    width: auto;
+    padding: 10px 20px;
+  }
+}
